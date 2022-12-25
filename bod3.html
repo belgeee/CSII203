@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title></title>
+        <script>
+            var orts , davhar ,ail , toot;
+            toot = prompt("tootoo oruulna uu");
+            if(toot>= 1 && toot <=36){
+                orts = 1;
+                if(toot>=1 && toot <=4)
+                    davhar = 1;
+                else if(toot>=5 && toot <=8)
+                    davhar = 2;
+                else if(toot>=9 && toot <=12)
+                    davhar = 3;
+                else if(toot>=13 && toot <=16)
+                    davhar = 4;
+                else if(toot>=17 && toot <=20)
+                    davhar = 5;
+                else if(toot>=21 && toot <=24)
+                    davhar = 6;
+                else if(toot>=25 && toot <=28)
+                    davhar = 7;
+                else if(toot>=29 && toot <=32)
+                    davhar = 8;
+                else
+                    davhar = 9;
+            }
+            else  if(toot>= 37 && toot <=72){
+                orts = 2;
+                if(toot>=37 && toot <=40)
+                    davhar = 1;
+                else if(toot>=41 && toot <=44)
+                    davhar = 2;
+                else if(toot>=45 && toot <=48)
+                    davhar = 3;
+                else if(toot>=49 && toot <=52)
+                    davhar = 4;
+                else if(toot>=53 && toot <=56)
+                    davhar = 5;
+                else if(toot>=57 && toot <=60)
+                    davhar = 6;
+                else if(toot>=61 && toot <=64)
+                    davhar = 7;
+                else if(toot>=65 && toot <=68)
+                    davhar = 8;
+                else
+                    davhar = 9;
+            }
+            else  if(toot>= 73 && toot <=108){
+                orts = 3;
+                if(toot>=73 && toot <=76)
+                    davhar = 1;
+                else if(toot>=77 && toot <=80)
+                    davhar = 2;
+                else if(toot>=81 && toot <=84)
+                    davhar = 3;
+                else if(toot>=85 && toot <=88)
+                    davhar = 4;
+                else if(toot>=89 && toot <=92)
+                    davhar = 5;
+                else if(toot>=93 && toot <=96)
+                    davhar = 6;
+                else if(toot>=97 && toot <=100)
+                    davhar = 7;
+                else if(toot>=101 && toot <=104)
+                    davhar = 8;
+                else
+                    davhar = 9;
+            }
+            if(toot% 4 ==1)
+                ail = 1;
+            else if(toot % 4 ==2)
+                ail = 2;
+            else if(toot %4 ==3)
+                ail = 3;
+            else
+                ail = 4;
+            window.alert(orts +"-r ortsnii " + davhar + "-r davhariin " + ail + "-r ail");
+        </script>
+    </head>
+    <body>
+    
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>bod4</title>
+        <script>
+            var a,b,c;
+            a = prompt("a toogoo oruulna uu");
+            b = prompt("b toogoo oruulna uu");
+            c = prompt("c toogoo oruulna uu");
+            var lcd;
+            if(a>=c && a>=b)
+                lcd = a;
+            else if(b>=c && b>=a)
+                lcd = b;
+            else if(c >=a && c>=b)
+                lcd = c;
+            while(!(lcd%a == 0 && lcd % b == 0 && lcd % c==0)){
+                lcd++;
+            }
+            window.alert(lcd);
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

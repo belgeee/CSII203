@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+table {
+    width: 100%;
+    margin: 30px 0px;    
+    text-align: center;
+    border-style: none;
+    min-height: 130px;
+}
+
+table th {
+    height: 24px;
+}
+
+h3 {
+    text-align: center;
+    margin: 35px 0px;
+}
+
+.website {
+    margin: 80px 65px;
+}
+
+.top {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.ehlel {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.ehlel_item {
+    text-align: center;
+}
+
+.square-input-wrapper {
+    display: flex;
+}
+
+.square-input-wrapper input {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: left;
+    font-size: 18px;
+}
+
+.square-input-wrapper input + input {
+    margin-left: -1px;
+}
+
+.balai_form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.balai_form_item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.laitai_form_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-form-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.line-input {
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.balai_hoyrdoh {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.balai_guravdah {
+    margin-bottom: 8px;
+}
+
+.hogiin_table {
+    display: flex;
+    gap: 30px;
+}
+
+.ashgu_duusav {
+    text-align: center;
+    margin-top: 50px;
+}

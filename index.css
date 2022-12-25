@@ -1,0 +1,25 @@
+.calcu {
+    padding: 5px;
+    margin: 5px;
+}
+button{
+    padding: 5px;
+    width: 50px;
+}
+input{
+    margin-bottom: 10px;
+}
+.calcu input{
+    width: 50px;
+}
+.calcu1 input{
+    padding: 5px;
+    width: 100px;
+}
+.calcu1 table{
+    margin: 5px;
+    padding: 5px;
+}
+.value2{
+    margin-top: 10px;
+}

@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>bod7</title>
+        <script>
+function selection_Sort(input_Array) {
+
+let array_length = input_Array.length;    
+
+for(let i = 0; i < array_length; i++) {
+
+    let smallest = i;
+
+    for(let j = i+1; j < array_length; j++){
+
+        if(input_Array[j] < input_Array[smallest]) {
+
+            smallest=j;
+
+        }
+
+     }
+
+     if (smallest != i) {
+
+         let temp_val = input_Array[i];
+
+         input_Array[i] = input_Array[smallest];
+
+         input_Array[smallest] = temp_val;      
+
+    }
+
+}
+
+return input_Array;
+
+}
+
+const input_Array = [9, 1, 8, 2, 4];
+
+selection_Sort(input_Array);
+
+console.log("Final sorted array : ",input_Array);
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
